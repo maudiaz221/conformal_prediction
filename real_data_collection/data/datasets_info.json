@@ -1,0 +1,70 @@
+{
+  "stock_prices": {
+    "name": "S&P 500 Index",
+    "source": "Yahoo Finance",
+    "ticker": "^GSPC",
+    "url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "description": "Daily closing prices of S&P 500 index",
+    "characteristics": "Non-stationary, volatile, GARCH effects, regime changes",
+    "length": 2516,
+    "date_range": "2015-01-02 00:00:00 to 2024-12-31 00:00:00",
+    "mean": 3356.124979962226,
+    "std": 1083.898653030037,
+    "min": 1829.0799560546875,
+    "max": 6090.27001953125
+  },
+  "exchange_rate": {
+    "name": "EUR/USD Exchange Rate",
+    "source": "Yahoo Finance",
+    "ticker": "EURUSD=X",
+    "url": "https://finance.yahoo.com/quote/EURUSD=X",
+    "description": "Daily EUR/USD exchange rate",
+    "characteristics": "Mean-reverting, heteroscedastic, policy-driven regime shifts",
+    "length": 2606,
+    "date_range": "2015-01-01 00:00:00 to 2024-12-31 00:00:00",
+    "mean": 1.1190997060454084,
+    "std": 0.0522830651175032,
+    "min": 0.9596191644668579,
+    "max": 1.2510008811950684
+  },
+  "gold_prices": {
+    "name": "Gold Futures Prices",
+    "source": "Yahoo Finance",
+    "ticker": "GC=F",
+    "url": "https://finance.yahoo.com/quote/GC=F",
+    "description": "Daily gold futures closing prices",
+    "characteristics": "Safe-haven asset, crisis-reactive, trend + volatility clustering",
+    "length": 2513,
+    "date_range": "2015-01-02 00:00:00 to 2024-12-31 00:00:00",
+    "mean": 1603.4290080740307,
+    "std": 393.08630776165177,
+    "min": 1050.800048828125,
+    "max": 2788.5
+  },
+  "electricity_demand": {
+    "name": "Household Electric Power Consumption",
+    "source": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption",
+    "description": "Daily aggregated household electricity consumption (Global Active Power)",
+    "characteristics": "Strong seasonality, weather-dependent variance",
+    "length": 1433,
+    "date_range": "2006-12-16 to 2010-11-26",
+    "mean": 1.09204830160128,
+    "std": 0.4204154593931215,
+    "min": 0.17381805555555555,
+    "max": 3.314851388888889
+  },
+  "m4_series": {
+    "name": "M4 Competition Series D1",
+    "source": "M4 Competition",
+    "url": "https://github.com/Mcompetitions/M4-methods",
+    "description": "M4 competition daily series (ID: D1)",
+    "characteristics": "Benchmark dataset for forecasting competitions",
+    "length": 1006,
+    "date_range": "2010-01-01 00:00:00 to 2012-10-02 00:00:00",
+    "mean": 1422.0543737574565,
+    "std": 315.11409241663193,
+    "min": 991.5,
+    "max": 2031.6
+  }
+}
