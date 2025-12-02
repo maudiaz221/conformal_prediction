@@ -1,0 +1,63 @@
+2025-12-02 04:07:23,337 - INFO - ================================================================================
+2025-12-02 04:07:23,337 - INFO - CONFORMAL PREDICTION EXPERIMENTS - REAL DATASETS
+2025-12-02 04:07:23,337 - INFO - ================================================================================
+2025-12-02 04:07:23,337 - INFO - 
+[Step 1] Loading real datasets...
+2025-12-02 04:07:23,349 - INFO - 
+================================================================================
+2025-12-02 04:07:23,349 - INFO - [Step 5] Running experiments (5 datasets × 3 models × 3 methods = 45)
+2025-12-02 04:07:23,349 - INFO - ================================================================================
+2025-12-02 04:07:23,349 - INFO - Estimated time: 8-12 minutes
+
+2025-12-02 04:07:26,505 - INFO - [1/45] AutoARIMA + Conformal - Cov: 0.500, Width: 155.25, Winkler: 297.41
+2025-12-02 04:07:26,751 - INFO - [2/45] AutoARIMA + Parametric - Cov: 0.500, Width: 160.08, Winkler: 281.85
+2025-12-02 04:07:28,241 - INFO - [3/45] AutoARIMA + Bootstrap - Cov: 0.917, Width: 207.08, Winkler: 246.12
+2025-12-02 04:07:28,575 - INFO - [4/45] Theta + Conformal - Cov: 0.542, Width: 156.34, Winkler: 259.96
+2025-12-02 04:07:28,612 - INFO - [5/45] Theta + Parametric - Cov: 0.500, Width: 159.08, Winkler: 326.46
+2025-12-02 04:07:28,809 - INFO - [6/45] Theta + Bootstrap - Cov: 0.833, Width: 203.96, Winkler: 218.40
+2025-12-02 04:08:07,067 - INFO - [7/45] LSTM + Conformal - Cov: 0.417, Width: 191.03, Winkler: 535.48
+2025-12-02 04:08:24,898 - INFO - [8/45] LSTM + Parametric - Cov: 1.000, Width: 452.18, Winkler: 452.18
+2025-12-02 04:08:54,446 - INFO - [9/45] LSTM + Bootstrap - Cov: 0.375, Width: 191.10, Winkler: 641.58
+2025-12-02 04:10:00,723 - INFO - [10/45] AutoARIMA + Conformal - Cov: 0.958, Width: 572.20, Winkler: 602.64
+2025-12-02 04:10:08,153 - INFO - [11/45] AutoARIMA + Parametric - Cov: 0.667, Width: 365.67, Winkler: 501.43
+2025-12-02 04:10:41,257 - INFO - [12/45] AutoARIMA + Bootstrap - Cov: 0.917, Width: 563.69, Winkler: 651.66
+2025-12-02 04:10:42,400 - INFO - [13/45] Theta + Conformal - Cov: 0.875, Width: 548.37, Winkler: 638.53
+2025-12-02 04:10:42,589 - INFO - [14/45] Theta + Parametric - Cov: 0.500, Width: 370.49, Winkler: 726.37
+2025-12-02 04:10:43,193 - INFO - [15/45] Theta + Bootstrap - Cov: 0.917, Width: 563.68, Winkler: 698.45
+2025-12-02 04:11:16,134 - INFO - [16/45] LSTM + Conformal - Cov: 1.000, Width: 1046.64, Winkler: 1046.64
+2025-12-02 04:11:28,343 - INFO - [17/45] LSTM + Parametric - Cov: 1.000, Width: 923.64, Winkler: 923.64
+2025-12-02 04:11:49,748 - INFO - [18/45] LSTM + Bootstrap - Cov: 0.875, Width: 733.03, Winkler: 786.26
+2025-12-02 04:11:52,567 - INFO - [19/45] AutoARIMA + Conformal - Cov: 0.958, Width: 0.06, Winkler: 0.06
+2025-12-02 04:11:52,857 - INFO - [20/45] AutoARIMA + Parametric - Cov: 1.000, Width: 0.06, Winkler: 0.06
+2025-12-02 04:11:54,435 - INFO - [21/45] AutoARIMA + Bootstrap - Cov: 0.958, Width: 0.07, Winkler: 0.07
+2025-12-02 04:11:54,824 - INFO - [22/45] Theta + Conformal - Cov: 0.958, Width: 0.06, Winkler: 0.06
+2025-12-02 04:11:54,865 - INFO - [23/45] Theta + Parametric - Cov: 1.000, Width: 0.06, Winkler: 0.06
+2025-12-02 04:11:55,119 - INFO - [24/45] Theta + Bootstrap - Cov: 1.000, Width: 0.07, Winkler: 0.07
+2025-12-02 04:12:15,805 - INFO - [25/45] LSTM + Conformal - Cov: 0.792, Width: 0.09, Winkler: 0.11
+2025-12-02 04:12:25,989 - INFO - [26/45] LSTM + Parametric - Cov: 1.000, Width: 0.25, Winkler: 0.25
+2025-12-02 04:12:44,532 - INFO - [27/45] LSTM + Bootstrap - Cov: 0.875, Width: 0.08, Winkler: 0.09
+2025-12-02 04:13:14,192 - INFO - [28/45] AutoARIMA + Conformal - Cov: 0.750, Width: 0.80, Winkler: 1.82
+2025-12-02 04:13:16,881 - INFO - [29/45] AutoARIMA + Parametric - Cov: 0.917, Width: 1.18, Winkler: 1.51
+2025-12-02 04:13:33,910 - INFO - [30/45] AutoARIMA + Bootstrap - Cov: 0.792, Width: 0.93, Winkler: 1.89
+2025-12-02 04:13:34,283 - INFO - [31/45] Theta + Conformal - Cov: 0.542, Width: 0.79, Winkler: 3.85
+2025-12-02 04:13:34,320 - INFO - [32/45] Theta + Parametric - Cov: 0.750, Width: 1.29, Winkler: 2.50
+2025-12-02 04:13:34,534 - INFO - [33/45] Theta + Bootstrap - Cov: 0.458, Width: 1.00, Winkler: 4.72
+2025-12-02 04:14:02,369 - INFO - [34/45] LSTM + Conformal - Cov: 0.917, Width: 1.43, Winkler: 1.79
+2025-12-02 04:14:17,286 - INFO - [35/45] LSTM + Parametric - Cov: 0.875, Width: 1.24, Winkler: 1.99
+2025-12-02 04:14:36,987 - INFO - [36/45] LSTM + Bootstrap - Cov: 0.292, Width: 0.90, Winkler: 4.70
+2025-12-02 04:14:38,397 - INFO - [37/45] AutoARIMA + Conformal - Cov: 0.625, Width: 58.00, Winkler: 87.90
+2025-12-02 04:14:38,548 - INFO - [38/45] AutoARIMA + Parametric - Cov: 1.000, Width: 78.11, Winkler: 78.11
+2025-12-02 04:14:39,361 - INFO - [39/45] AutoARIMA + Bootstrap - Cov: 0.625, Width: 68.56, Winkler: 126.47
+2025-12-02 04:14:39,436 - INFO - [40/45] Theta + Conformal - Cov: 1.000, Width: 66.09, Winkler: 66.09
+2025-12-02 04:14:39,444 - INFO - [41/45] Theta + Parametric - Cov: 1.000, Width: 77.58, Winkler: 77.58
+2025-12-02 04:14:39,493 - INFO - [42/45] Theta + Bootstrap - Cov: 0.542, Width: 70.04, Winkler: 105.93
+2025-12-02 04:15:02,112 - INFO - [43/45] LSTM + Conformal - Cov: 1.000, Width: 145.16, Winkler: 145.16
+2025-12-02 04:15:13,447 - INFO - [44/45] LSTM + Parametric - Cov: 1.000, Width: 644.73, Winkler: 644.73
+2025-12-02 04:15:43,985 - INFO - [45/45] LSTM + Bootstrap - Cov: 0.542, Width: 119.80, Winkler: 303.87
+2025-12-02 04:15:43,990 - INFO - Results saved: results/all_results.csv
+2025-12-02 04:15:43,990 - INFO - Total experiments completed: 45/45
+2025-12-02 04:15:44,019 - INFO - 
+
+================================================================================
+2025-12-02 04:15:44,020 - INFO - ✓ ALL EXPERIMENTS COMPLETED SUCCESSFULLY!
+2025-12-02 04:15:44,020 - INFO - ================================================================================
